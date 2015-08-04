@@ -7,7 +7,9 @@ we have talked `git add` and `git commit` in chapter 1, now let's go a little de
 Use `git add` to add a snapshot of the files in current working directory to staging area. You can use `git add` in the following ways:
 
 `git add .` will add all the files in working directory to staging area. include new/modified files
+
 `git add path/to/file1 path/to/file2` you can also append a file list to add the specified files.
+
 `git add -u` only add the modified files. This will exclude the new files. This is fairly useful when you have files modified and newly add but you only want to add the modified files.
 
 #### git status
@@ -67,7 +69,11 @@ You can also `diff` a specify file, for example `git diff paht/to/file1`. Git di
 
 
 #### Hint: A better git diff output
+
 ![vimdiff](http://usevim.com/images/posts/vimdiff.png)
+
 You can find how to make your `git diff` fancy here:
+
 [Viewing all git diffs with vimdiff](http://stackoverflow.com/questions/3713765/viewing-all-git-diffs-with-vimdiff)
+
 [Git diff with Vimdiff](https://technotales.wordpress.com/2009/05/17/git-diff-with-vimdiff/)
